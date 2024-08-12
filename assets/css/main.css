@@ -4984,7 +4984,7 @@ a img {
 }
 
 .tech {
-    margin: 15px;
+    margin: 10px;
 }
 
 .user {
@@ -5110,12 +5110,11 @@ a img {
 .footer {
     background: #eff2f4;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f4f4f7, #6a6c6d);
+    /* background: -webkit-linear-gradient(to left, #f4f4f7, #6a6c6d); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #555556, #eef0f1);
+    background: linear-gradient(to right, #8db114, #eef0f1);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
-    margin:auto;
     text-align: center;
     color: rgb(0, 0, 0)
 }
@@ -5140,6 +5139,7 @@ a img {
 .Achievements{
     align-items: center;
     margin: auto;
+    /* height: 800px; */
     text-align: center;
     justify-content: space-between;
 }
